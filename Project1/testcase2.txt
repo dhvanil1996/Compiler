@@ -1,0 +1,19 @@
+ !this program performs performs basic functions and loops!
+
+ !convert all integers to negative!
+ 
+ function neg [var:int]{
+ 
+	return -var;
+ }
+
+ !return a squared of a integer !
+ function square [var1$:int]{
+	return var1$ * var1$;
+ }
+
+%%
+int var = 10;
+int var1$ = 5;
+put(neg(var));
+put(square(var1$));

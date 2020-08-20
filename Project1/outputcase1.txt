@@ -1,0 +1,57 @@
+%%
+integer i, max, sum;
+sum = 0;
+i = 1;
+get(max);
+while(i < sum){
+sum = i+sum;
+i = i + 1;
+}
+put(sum + max);ÿ
+
+Token               Lexeme
+___________________________________
+Separator           %%
+Identifier          i
+Separator           ,
+Identifier          max
+Separator           ,
+Identifier          sum
+Separator           ;
+Identifier          sum
+Operator            =
+Integer             0
+Separator           ;
+Identifier          i
+Operator            =
+Integer             1
+Separator           ;
+Separator           (
+Identifier          max
+Separator           )
+Separator           ;
+Separator           (
+Identifier          i
+Operator            <
+Identifier          sum
+Separator           )
+Separator           {
+Identifier          sum
+Operator            =
+Identifier          i
+Operator            +
+Identifier          sum
+Separator           ;
+Identifier          i
+Operator            =
+Identifier          i
+Operator            +
+Integer             1
+Separator           ;
+Separator           }
+Separator           (
+Identifier          sum
+Operator            +
+Identifier          max
+Separator           )
+Separator           ;

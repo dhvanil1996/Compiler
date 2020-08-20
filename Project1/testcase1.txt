@@ -1,0 +1,10 @@
+%%
+integer i, max, sum;
+sum = 0;
+i = 1;
+get(max);
+while(i < sum){
+sum = i+sum;
+i = i + 1;
+}
+put(sum + max);
